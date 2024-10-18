@@ -68,7 +68,7 @@ class RegisterPage {
         cy.get('input[name="city-uf"]').should('have.value', expectedData.cityUf);
 
 
-        cy.get('input[name="address-number"]').type('1345')
+        cy.get('input[name="address-number"]').type('1345c')
         cy.get('input[name="address-details"]').type("Apt 204 Edificio 1")
 
     }

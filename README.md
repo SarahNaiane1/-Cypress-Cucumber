@@ -60,7 +60,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 ### 2. Entre no diretório do projeto:
 ```bash 
-cd nome-do-repositorio
+cd Cypress-Cucumber
 ```
 ### 3. Instalar Dependências
 ```bash

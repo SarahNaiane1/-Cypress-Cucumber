@@ -11,7 +11,7 @@
       {
         "id": "cadastrar-usuários-para-se-tornar-entregador;acessar-a-tela--e-validar-botão-de-\"cadastra-se-para-fazer-uma-entrega\"",
         "keyword": "Scenario",
-        "line": 7,
+        "line": 9,
         "name": "Acessar a tela  e validar botão de \"Cadastra-se para fazer uma entrega\"",
         "tags": [],
         "type": "scenario",
@@ -23,27 +23,27 @@
             "name": "que o usuário acessa a página inicial do Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 1406000000
+              "duration": 8045000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
+            "line": 10,
             "name": "clica no botão Cadastrar-se que redireciona para a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 213000000
+              "duration": 1292000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 11,
             "name": "é direcionado para a tela de Cadastro",
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 257000000
             }
           }
         ]
@@ -59,51 +59,51 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 14,
+            "line": 8,
             "name": "que o usuário acessa a página inicial do Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 1357000000
+              "duration": 2838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "valida o logo",
+            "result": {
+              "status": "passed",
+              "duration": 392000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "valida o logo",
+            "name": "valida o título",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 259000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "valida o título",
+            "name": "valida se o botão existe",
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 408000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 17,
-            "name": "valida se o botão existe",
-            "result": {
-              "status": "passed",
-              "duration": 79000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
             "name": "valida a imagem",
             "result": {
               "status": "passed",
-              "duration": 81000000
+              "duration": 88000000
             }
           }
         ]

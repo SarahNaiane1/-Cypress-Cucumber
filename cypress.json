@@ -1,0 +1,15 @@
+{
+    "chromeWebSecurity": false,
+    "viewportWidth": 1000,
+    "viewportHeight": 660,
+    "baseUrl": "https://buger-eats.vercel.app/",
+    "testFiles": "**/*.{feature,features}",
+    "defaultCommandTimeout": 30000,
+    "retries": {
+      "runMode": 2,
+      "openMode": 0
+    },
+    
+    "projectId": "shimgr"
+
+  }

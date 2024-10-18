@@ -1,0 +1,36 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Automated tests with Cypress and Cucumber",
+  "main": "index.js",
+  "devDependencies": {
+    "@cypress/skip-test": "^2.6.1",
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "cypress": "^9.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-localstorage-commands": "^1.5.0",
+    "eslint": "^7.32.0",
+    "mochawesome": "^7.1.3"
+  },
+  "scripts": {
+    "test": "npx cypress open",
+    "test_run": "npx cypress run",
+    "postcypress:run": "node ./cypress/support/multiple-cucumber-html-reporter.js"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/features/**/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  },
+  "author": "Sarah",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.0.3"
+  }
+}

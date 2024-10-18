@@ -1,0 +1,4 @@
+node_modules/
+cucumber-json/*.json
+*.mp4
+*.log

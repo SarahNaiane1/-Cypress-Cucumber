@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    Como um visitante do Buger Eats\n    Quero me cadastrar\n    Para que eu possa fazer pedidos",
+    "keyword": "Feature",
+    "name": "Cadastrar Usuários para se tornar entregador",
+    "line": 2,
+    "id": "cadastrar-usuários-para-se-tornar-entregador",
+    "tags": [],
+    "uri": "Home.feature",
+    "elements": [
+      {
+        "id": "cadastrar-usuários-para-se-tornar-entregador;acessar-a-tela--e-validar-botão-de-\"cadastra-se-para-fazer-uma-entrega\"",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Acessar a tela  e validar botão de \"Cadastra-se para fazer uma entrega\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que o usuário acessa a página inicial do Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 1406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "clica no botão Cadastrar-se que redireciona para a tela de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "é direcionado para a tela de Cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastrar-usuários-para-se-tornar-entregador;validar-textos-e-imagens-na-home",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validar textos e imagens na Home",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que o usuário acessa a página inicial do Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 1357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "valida o logo",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "valida o título",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "valida se o botão existe",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "valida a imagem",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

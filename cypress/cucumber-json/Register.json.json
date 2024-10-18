@@ -11,7 +11,7 @@
       {
         "id": "cadastro-de-entregador;verificar-os-títulos-na-tela-de-cadastro",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 8,
         "name": "Verificar os títulos na tela de cadastro",
         "tags": [],
         "type": "scenario",
@@ -23,47 +23,47 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 9164000000
+              "duration": 5192000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 9,
             "name": "o título \"Cadastre-se para fazer entregas\" deve estar visível",
             "result": {
               "status": "passed",
-              "duration": 118000000
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "o título \"Dados\" deve estar visível",
+            "result": {
+              "status": "passed",
+              "duration": 182000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "o título \"Dados\" deve estar visível",
+            "name": "o título \"Endereço\" deve estar visível",
             "result": {
               "status": "passed",
-              "duration": 262000000
+              "duration": 104000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "o título \"Endereço\" deve estar visível",
-            "result": {
-              "status": "passed",
-              "duration": 122000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
             "name": "o título \"Método\" deve estar visível",
             "result": {
               "status": "passed",
-              "duration": 220000000
+              "duration": 70000000
             }
           }
         ]
@@ -71,7 +71,7 @@
       {
         "id": "cadastro-de-entregador;realizar-cadastro-com-sucesso",
         "keyword": "Scenario",
-        "line": 15,
+        "line": 14,
         "name": "Realizar cadastro com sucesso",
         "tags": [],
         "type": "scenario",
@@ -83,67 +83,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 4172000000
+              "duration": 2371000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 16,
+            "line": 15,
             "name": "o usuário preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 7817000000
+              "duration": 5962000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 4862000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 17,
-            "name": "preenche os campos de endereço",
+            "name": "escolhe o método de entrega como \"Moto\"",
             "result": {
               "status": "passed",
-              "duration": 5821000000
+              "duration": 1606000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 18,
-            "name": "escolhe o método de entrega como \"Moto\"",
-            "result": {
-              "status": "passed",
-              "duration": 2085000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
             "name": "envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 569000000
+              "duration": 1628000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 20,
+            "line": 19,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 1230000000
+              "duration": 1489000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 21,
+            "line": 20,
             "name": "o usuário deve ver a mensagem de sucesso",
             "result": {
               "status": "passed",
-              "duration": 265000000
+              "duration": 392000000
             }
           }
         ]
@@ -151,7 +151,7 @@
       {
         "id": "cadastro-de-entregador;realizar-cadastro-com-sucesso-escolhendo-\"bicicleta\"",
         "keyword": "Scenario",
-        "line": 23,
+        "line": 22,
         "name": "Realizar cadastro com sucesso escolhendo \"Bicicleta\"",
         "tags": [],
         "type": "scenario",
@@ -163,67 +163,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 3083000000
+              "duration": 3144000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 24,
+            "line": 23,
             "name": "o usuário preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 5117000000
+              "duration": 4712000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 5203000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 25,
-            "name": "preenche os campos de endereço",
+            "name": "escolhe o método de entrega como \"Bicicleta\"",
             "result": {
               "status": "passed",
-              "duration": 3569000000
+              "duration": 2443000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 26,
-            "name": "escolhe o método de entrega como \"Bicicleta\"",
-            "result": {
-              "status": "passed",
-              "duration": 1000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
             "name": "envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 568000000
+              "duration": 904000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
+            "line": 27,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 612000000
+              "duration": 1072000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 29,
+            "line": 28,
             "name": "o usuário deve ver a mensagem de sucesso",
             "result": {
               "status": "passed",
-              "duration": 202000000
+              "duration": 317000000
             }
           }
         ]
@@ -231,7 +231,7 @@
       {
         "id": "cadastro-de-entregador;realizar-cadastro-com-sucesso-escolhendo-\"van\"",
         "keyword": "Scenario",
-        "line": 31,
+        "line": 30,
         "name": "Realizar cadastro com sucesso escolhendo \"Van\"",
         "tags": [],
         "type": "scenario",
@@ -243,67 +243,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2355000000
+              "duration": 3155000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 32,
+            "line": 31,
             "name": "o usuário preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 3760000000
+              "duration": 4495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 4828000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 33,
-            "name": "preenche os campos de endereço",
+            "name": "escolhe o método de entrega como \"Van\"",
             "result": {
               "status": "passed",
-              "duration": 3104000000
+              "duration": 1284000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 34,
-            "name": "escolhe o método de entrega como \"Van\"",
-            "result": {
-              "status": "passed",
-              "duration": 1002000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 35,
             "name": "envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 447000000
+              "duration": 404000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 36,
+            "line": 35,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 634000000
+              "duration": 820000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 37,
+            "line": 36,
             "name": "o usuário deve ver a mensagem de sucesso",
             "result": {
               "status": "passed",
-              "duration": 135000000
+              "duration": 139000000
             }
           }
         ]
@@ -311,7 +311,7 @@
       {
         "id": "cadastro-de-entregador;tentar-realizar-cadastro-sem-enviar-foto-da-cnh",
         "keyword": "Scenario",
-        "line": 39,
+        "line": 38,
         "name": "Tentar realizar cadastro sem enviar foto da CNH",
         "tags": [],
         "type": "scenario",
@@ -323,67 +323,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2925000000
+              "duration": 3121000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 40,
+            "line": 39,
             "name": "o usuário preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 4000000000
+              "duration": 4479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 4565000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 41,
-            "name": "preenche os campos de endereço",
+            "name": "escolhe o método de entrega como \"Moto\"",
             "result": {
               "status": "passed",
-              "duration": 3776000000
+              "duration": 932000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 42,
-            "name": "escolhe o método de entrega como \"Moto\"",
-            "result": {
-              "status": "passed",
-              "duration": 1260000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 43,
             "name": "não envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 91000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 44,
+            "line": 43,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 484000000
+              "duration": 463000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 45,
+            "line": 44,
             "name": "o usuário deve ver uma mensagem de erro informando que a foto da CNH é obrigatória",
             "result": {
               "status": "passed",
-              "duration": 269000000
+              "duration": 438000000
             }
           }
         ]
@@ -391,7 +391,7 @@
       {
         "id": "cadastro-de-entregador;tentar-realizar-cadastro-sem-selecionar-um-método-de-entrega",
         "keyword": "Scenario",
-        "line": 47,
+        "line": 46,
         "name": "Tentar realizar cadastro sem selecionar um método de entrega",
         "tags": [],
         "type": "scenario",
@@ -403,77 +403,77 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 1668000000
+              "duration": 3358000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 48,
+            "line": 47,
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2025000000
+              "duration": 2547000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 49,
+            "line": 48,
             "name": "o usuário preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 5082000000
+              "duration": 5013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 4956000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 50,
-            "name": "preenche os campos de endereço",
+            "name": "não escolhe um método de entrega",
             "result": {
               "status": "passed",
-              "duration": 3711000000
+              "duration": 55000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 51,
-            "name": "não escolhe um método de entrega",
-            "result": {
-              "status": "passed",
-              "duration": 30000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 52,
             "name": "envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 638000000
+              "duration": 592000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 53,
+            "line": 52,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 557000000
+              "duration": 1286000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 54,
+            "line": 53,
             "name": "o usuário deve ver uma mensagem de erro informando que o método de entrega é obrigatório",
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 333000000
             }
           }
         ]
@@ -481,7 +481,7 @@
       {
         "id": "cadastro-de-entregador;tentar-realizar-cadastro-com-cpf-inválido",
         "keyword": "Scenario",
-        "line": 57,
+        "line": 56,
         "name": "Tentar realizar cadastro com CPF inválido",
         "tags": [],
         "type": "scenario",
@@ -493,67 +493,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2338000000
+              "duration": 3779000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 58,
+            "line": 57,
             "name": "o usuário preenche os campos obrigatórios com um CPF inválido",
             "result": {
               "status": "passed",
-              "duration": 4643000000
+              "duration": 5346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 4448000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 59,
-            "name": "preenche os campos de endereço",
+            "name": "escolhe o método de entrega como \"Moto\"",
             "result": {
               "status": "passed",
-              "duration": 4306000000
+              "duration": 1116000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 60,
-            "name": "escolhe o método de entrega como \"Moto\"",
-            "result": {
-              "status": "passed",
-              "duration": 895000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 61,
             "name": "envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 478000000
+              "duration": 838000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 62,
+            "line": 61,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 687000000
+              "duration": 910000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 63,
+            "line": 62,
             "name": "o usuário deve ver uma mensagem de erro informando que o CPF é inválido",
             "result": {
               "status": "passed",
-              "duration": 192000000
+              "duration": 142000000
             }
           }
         ]
@@ -561,7 +561,7 @@
       {
         "id": "cadastro-de-entregador;exibir-mensagem-de-erro-ao-inserir-número-de-whatsapp-com-formato-incorreto",
         "keyword": "Scenario",
-        "line": 65,
+        "line": 64,
         "name": "Exibir mensagem de erro ao inserir número de WhatsApp com formato incorreto",
         "tags": [],
         "type": "scenario",
@@ -573,37 +573,37 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 3238000000
+              "duration": 2549000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 66,
+            "line": 65,
             "name": "o usuário preenche os campos obrigatórios com WhatsApp no formato \"1191111111111\"",
             "result": {
               "status": "passed",
-              "duration": 3108000000
+              "duration": 4654000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 67,
+            "line": 66,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 629000000
+              "duration": 548000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 68,
+            "line": 67,
             "name": "o usuário deve ver a mensagem \"Oops! Whatsapp com formato incorreto\"",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 139000000
             }
           }
         ]
@@ -611,7 +611,7 @@
       {
         "id": "cadastro-de-entregador;exibir-mensagem-de-erro-ao-não-preencher-o-número-do-endereço",
         "keyword": "Scenario",
-        "line": 70,
+        "line": 69,
         "name": "Exibir mensagem de erro ao não preencher o número do endereço",
         "tags": [],
         "type": "scenario",
@@ -623,37 +623,37 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 1902000000
+              "duration": 2367000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 71,
+            "line": 70,
             "name": "não preenche o campo \"número do endereço\"",
             "result": {
               "status": "passed",
-              "duration": 8192000000
+              "duration": 13253000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 72,
+            "line": 71,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 676000000
+              "duration": 1292000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 73,
+            "line": 72,
             "name": "o usuário deve ver a mensagem \"O campo número do endereço é obrigatório\"",
             "result": {
               "status": "passed",
-              "duration": 143000000
+              "duration": 358000000
             }
           }
         ]
@@ -661,7 +661,7 @@
       {
         "id": "cadastro-de-entregador;realizar-cadastro-sem-preencher-os-campos",
         "keyword": "Scenario",
-        "line": 75,
+        "line": 74,
         "name": "Realizar cadastro sem preencher os campos",
         "tags": [],
         "type": "scenario",
@@ -673,67 +673,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2143000000
+              "duration": 2332000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 76,
+            "line": 75,
             "name": "o usuário não preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 465000000
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "não preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 787000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 77,
-            "name": "não preenche os campos de endereço",
+            "name": "não escolhe um método de entrega",
             "result": {
               "status": "passed",
-              "duration": 660000000
+              "duration": 45000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 78,
-            "name": "não escolhe um método de entrega",
-            "result": {
-              "status": "passed",
-              "duration": 27000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 79,
             "name": "não envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 420000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 80,
+            "line": 79,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 822000000
+              "duration": 949000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 81,
+            "line": 80,
             "name": "o usuário deve ver mensagens nos campos obrigatório",
             "result": {
               "status": "passed",
-              "duration": 949000000
+              "duration": 1293000000
             }
           }
         ]
@@ -741,7 +741,7 @@
       {
         "id": "cadastro-de-entregador;escolhe-os-métodos-de-entrega-\"moto\",-\"bicicleta\"-e-\"van/carro\"",
         "keyword": "Scenario",
-        "line": 84,
+        "line": 83,
         "name": "Escolhe os métodos de entrega \"Moto\", \"Bicicleta\" e \"Van/Carro\"",
         "tags": [],
         "type": "scenario",
@@ -753,67 +753,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 1929000000
+              "duration": 2972000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 85,
+            "line": 84,
             "name": "o usuário preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 3024000000
+              "duration": 5988000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "preenche os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 4035000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 86,
-            "name": "preenche os campos de endereço",
+            "name": "envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 2394000000
+              "duration": 500000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 87,
-            "name": "envia uma foto da sua CNH",
-            "result": {
-              "status": "passed",
-              "duration": 102000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 88,
             "name": "escolhe as tres opções de entrega",
             "result": {
               "status": "passed",
-              "duration": 985000000
+              "duration": 3474000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 89,
+            "line": 88,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 179000000
+              "duration": 659000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 90,
+            "line": 89,
             "name": "o usuário deve ver a mensagem \"Oops! Selecione apenas um método de entrega\"",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 290000000
             }
           }
         ]
@@ -821,7 +821,7 @@
       {
         "id": "cadastro-de-entregador;clicar-no-botão-de-voltar-na-tela-de-registro",
         "keyword": "Scenario",
-        "line": 92,
+        "line": 91,
         "name": "Clicar no botão de voltar na tela de registro",
         "tags": [],
         "type": "scenario",
@@ -833,27 +833,27 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2065000000
+              "duration": 2956000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 93,
+            "line": 92,
             "name": "o usuário clica no botão \"voltar\"",
             "result": {
               "status": "passed",
-              "duration": 537000000
+              "duration": 1175000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 94,
+            "line": 93,
             "name": "o usuário deve ser redirecionado para a tela anterior",
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 102000000
             }
           }
         ]
@@ -861,7 +861,7 @@
       {
         "id": "cadastro-de-entregador;verificar-a-presença-e-os-atributos-da-imagem-do-logo",
         "keyword": "Scenario",
-        "line": 97,
+        "line": 96,
         "name": "Verificar a presença e os atributos da imagem do logo",
         "tags": [],
         "type": "scenario",
@@ -873,37 +873,37 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2284000000
+              "duration": 2382000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 98,
+            "line": 97,
             "name": "o logo deve estar visível",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "o logo deve ter o atributo \"src\"",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 99,
-            "name": "o logo deve ter o atributo \"src\"",
-            "result": {
-              "status": "passed",
-              "duration": 61000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 100,
             "name": "o logo deve ter o atributo \"alt\" igual a \"Buger Eats\"",
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 76000000
             }
           }
         ]
@@ -911,7 +911,7 @@
       {
         "id": "cadastro-de-entregador;tentar-realizar-cadastro-com-endereço-incompleto",
         "keyword": "Scenario",
-        "line": 105,
+        "line": 104,
         "name": "Tentar realizar cadastro com endereço incompleto",
         "tags": [],
         "type": "scenario",
@@ -923,67 +923,67 @@
             "name": "que o usuário acessa a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 2269000000
+              "duration": 2363000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 106,
+            "line": 105,
             "name": "o usuário preenche os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 3236000000
+              "duration": 4410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "preenche parcialmente o CEP",
+            "result": {
+              "status": "passed",
+              "duration": 1607000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 107,
-            "name": "preenche parcialmente o CEP",
+            "name": "envia uma foto da sua CNH",
             "result": {
               "status": "passed",
-              "duration": 1071000000
+              "duration": 718000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 108,
-            "name": "envia uma foto da sua CNH",
-            "result": {
-              "status": "passed",
-              "duration": 244000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 109,
             "name": "não escolhe um método de entrega",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 55000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 110,
+            "line": 109,
             "name": "clica no botão de \"Cadastre-se para fazer entregas\"",
             "result": {
               "status": "passed",
-              "duration": 730000000
+              "duration": 1556000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 111,
+            "line": 110,
             "name": "usuário deve ver uma mensagem de erro informando que o cep deve ser válido",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 12000000
             }
           }
         ]

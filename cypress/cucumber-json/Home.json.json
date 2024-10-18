@@ -1,6 +1,6 @@
 [
   {
-    "description": "    Como um visitante do Buger Eats\n    Quero me cadastrar\n    Para que eu possa fazer pedidos",
+    "description": "    Como um usuário,\n    Quero acessar a tela de Cadastro\n    Para acessara a tela de  cadastro",
     "keyword": "Feature",
     "name": "Cadastrar Usuários para se tornar entregador",
     "line": 2,
@@ -23,7 +23,7 @@
             "name": "que o usuário acessa a página inicial do Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 8045000000
+              "duration": 8702000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "clica no botão Cadastrar-se que redireciona para a tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 1292000000
+              "duration": 4694000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "é direcionado para a tela de Cadastro",
             "result": {
               "status": "passed",
-              "duration": 257000000
+              "duration": 125000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "que o usuário acessa a página inicial do Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 2838000000
+              "duration": 2489000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "valida o logo",
             "result": {
               "status": "passed",
-              "duration": 392000000
+              "duration": 197000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "valida o título",
             "result": {
               "status": "passed",
-              "duration": 259000000
+              "duration": 81000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "valida se o botão existe",
             "result": {
               "status": "passed",
-              "duration": 408000000
+              "duration": 184000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "valida a imagem",
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 92000000
             }
           }
         ]

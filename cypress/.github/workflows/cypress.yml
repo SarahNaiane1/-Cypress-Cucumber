@@ -1,4 +1,4 @@
-name: Cypress Tests
+name: Cypress Tests Burger Eats Delivery 
 
 on:
   push:
